@@ -1,0 +1,137 @@
+<html lang="en"><head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="waypoints.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div>
+		<button class="information" onclick="myFunction()">ⓘ</button>
+		<div id="line"></div>
+		<div id="myDIV">
+			<h1>Michael Q</h1>
+			<p>✳ American-German handyman and digital and physical designer.</p>
+			<p>✳ E: <a href="mailto:michael@quedna.us" target="blank">michael@quedna.us</a></p>
+			<p>✳ T: 612-245-5290</p>
+			<p>✳ IG: <a href="http://instagram.com/4e.vr/" target="blank">4e.vr</a></p>
+			<p>Previous experiences include: <a href="http://motherdesign.com/" target="blank">Mother</a>, <a href="http://ateliertakagi.com/" target="blank">Atelier Takagi</a>, <a href="http://feel.agency/" target="blank">FEEL</a>, <a href="http://dusendusen.com/" target="blank">Dusen Dusen</a>, <a href="http://elanaschlenker.com/" target="blank">Studio Elana Schlenker</a>, <a href="http://hellomrmag.com/" target="blank">Hello Mr.</a></p>
+			<p>✈ Available internationally + looking for a new home</p>
+		</div>
+		<div id="coverup"></div>
+	<div class="post">
+		<p class="description" style="display: none;">YVES KLEIN</p>
+			<img id="one" src="yves-raw.jpg">
+			<img id="two" src="y4.png">
+			<br><br><br>
+			<img id="two" src="sidedecide.jpg">
+			<img id="three" src="yves-fighter.gif">
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">SPAR CANDY</p>
+			<img id="two" src="quednaus-moodboards.jpg">
+			<img id="two" src="WHEAT-caleb.jpg">
+				<br><br><br>
+			<img id="two" src="q3.png">
+				<br><br><br>
+			<img id="two" src="caleb-plywood.jpg">
+			<img id="one" src="miya-calib.jpg">
+			<img id="two" src="maya1.jpg">
+				<br><br><br>
+			<!-- <iframe width="560" height="315" id="youtube" src="https://www.youtube.com/embed/ASNJluULQzs?version=3&autoplay=0&controls=0&&showinfo=0&loop=1playlist=VIDEO_ID" frameborder="0" allowfullscreen></iframe> -->
+						<p class="p2">⤷ Garment design, graphic design, direction, styling by me. Photographed by <a href="http://davidbillet.fun/" target="blank">David Billet</a>.</p>
+	</div>
+				<br><br><br>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">BOYS ON TYPE</p>
+			<img id="two" src="maxb.png">
+	</div>
+	<div class="post">
+	<div id="line2"></div>
+		<p class="description" style="display: none;">OBER–UNTER</p>
+				<br><br><br>
+			<iframe width="560" height="315" id="youtube" src="https://www.youtube.com/embed/dRFIF6QFzqw?version=3&amp;autoplay=0&amp;controls=0&amp;&amp;showinfo=0&amp;loop=1&#8203;playlist=VIDEO_ID" frameborder="0" allowfullscreen=""></iframe>
+				<br><br><br>
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">HELLO MR. LIVE</p>
+				<br><br><br>
+			<img id="two" src="hello.jpg">
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">DUSEN DUSEN</p>
+				<br><br><br><br><br>
+			<video id="two" autoplay="" loop="">
+			<source src="dusen.mp4" type="video/mp4">
+			</video>
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">GLYPH TABLE</p>
+			<img id="two" src="glyph.jpg">
+			<p class="p2">⤷ Made in collaboration with <a href="http://ateliertakagi.com/" target="_blank">Jonah Takagi</a></p>
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">SUPPORT</p>
+			<video id="two" autoplay="" loop="">
+  		<source src="in4.mp4" type="video/mp4">
+			</video>
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">SUPPORT</p>
+			<img id="two" src="s3.jpg">
+			<img id="one" src="sup-sand.jpg">
+			<img id="one" src="bomin.jpg">
+			<img id="one" src="s6.jpg">
+	</div>
+	<div id="line2"></div>
+	<div class="post">
+		<p class="description" style="display: none;">MISC. 2017</p>
+			<img id="two" src="disco.1.jpg">
+			<img id="two" src="discofag.png">
+	</div>
+	<div id="date" style="opacity: 1;">BOYS ON TYPE</div>
+	<div style="height:10px;"></div>
+	</div>
+
+<script>
+$(window).load(function () {
+    $(window).on("scroll resize", function () {
+        var pos = $('#date').offset();
+        $('.post').each(function () {
+            if (pos.top >= $(this).offset().top && pos.top <= $(this).next().offset().top) {
+                var newDescr = $(this).find('.description').text();
+                var oldDescr = $( "#date" ).html();
+
+                $('#date').html(newDescr);
+                if(newDescr !== oldDescr) {
+                    $( "#date" ).css('opacity', 0.4).animate({ 'opacity': '1',}, 200);
+                return;
+                }
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $(window).trigger('scroll'); // init the value
+    });
+});
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+</body></html>
