@@ -20,7 +20,7 @@ body {
 
 p {
   z-index: 2;
-  font-family: 'ex';
+  font-family: 'vremena';
   text-align: left;
   font-size: 22pt;
   font-kerning: 3px;
@@ -43,7 +43,7 @@ p {
 }
 
 h1 {
-  font-family: 'fraktur';
+  font-family: 'ex';
   font-size: 5vh;
   font-weight: 100;
   margin-top: 13px;
