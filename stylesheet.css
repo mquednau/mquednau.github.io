@@ -97,7 +97,7 @@ a:visited {
   display: none;
   z-index: 3;
   top: 0;
-  border-left: 1pt solid black;
+/*   border-left: 1pt solid black; */
   overflow: scroll;
 }
 
