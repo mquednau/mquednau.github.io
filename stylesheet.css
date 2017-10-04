@@ -60,10 +60,35 @@ p {
   text-align: left;
   font-size: 22pt;
   font-kerning: 3px;
-  line-height: 4vh;
+  line-height: 24pt;
   width: 80%;
   left: 40px;
   position: relative;
+  margin:0;
+}
+.p5 {
+  z-index: 2;
+  font-family: 'vremena';
+  text-align: left;
+  font-size: 22pt;
+  font-kerning: 3px;
+  line-height: 24pt;
+  width: 80%;
+  left: 60px;
+  position: relative;
+  margin:0;
+}
+.p5 {
+  z-index: 2;
+  font-family: 'vremena';
+  text-align: left;
+  font-size: 22pt;
+  font-kerning: 3px;
+  line-height: 24pt;
+  width: 80%;
+  left: 80px;
+  position: relative;
+  margin:0;
 }
 h1 {
   font-family: 'ex';
