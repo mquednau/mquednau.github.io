@@ -43,6 +43,7 @@ p {
 }
 
 .p3 {
+  border-bottom: 1pt solid black;
   z-index: 2;
   font-family: 'vremena';
   text-align: left;
