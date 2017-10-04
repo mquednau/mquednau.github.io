@@ -24,7 +24,7 @@ p {
   text-align: left;
   font-size: 22pt;
   font-kerning: 3px;
-  line-height: 4.5vh;
+  line-height: 24pt;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -35,7 +35,7 @@ p {
   text-align: center;
   font-size: 22pt;
   font-kerning: 3px;
-  line-height: 4vh;
+  line-height: 24pt;
   width: 80%;
   left: 10%;
   position: relative;
@@ -48,7 +48,7 @@ p {
   text-align: left;
   font-size: 22pt;
   font-kerning: 3px;
-  line-height: 4vh;
+  line-height: 24pt;
   left: 20px;
   position: relative;
   margin-top: 30px;
