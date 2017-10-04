@@ -63,7 +63,7 @@ p {
   font-kerning: 3px;
   line-height: 24pt;
   width: 80%;
-  left: 40px;
+  left: 80px;
   position: relative;
   margin:0;
 }
@@ -75,7 +75,7 @@ p {
   font-kerning: 3px;
   line-height: 24pt;
   width: 80%;
-  left: 60px;
+  left: 120px;
   position: relative;
   margin:0;
 }
@@ -87,7 +87,7 @@ p {
   font-kerning: 3px;
   line-height: 24pt;
   width: 80%;
-  left: 80px;
+  left: 160px;
   position: relative;
   margin:0;
 }
