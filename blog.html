@@ -1,0 +1,58 @@
+<html lang="en"><head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="waypoints.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div>
+		<button class="information" onclick="myFunction()">ⓘ</button>
+<!-- 		<div id="line"></div> -->
+		<div id="myDIV">
+			<h1><a href="http://michaelq.info/"><i>BACK TO PORTFOLIO</i></a></h1>
+			<p>✳ American-German designer and handyman.</p>
+			<p>✳ E: <a href="mailto:michael@quedna.us" target="blank">michael@quedna.us</a></p>
+			<p>✳ IG: <a href="http://instagram.com/4e.vr/" target="blank">4e.vr</a></p>
+			<p>Previous experiences include: <a href="http://motherdesign.com/" target="blank">Mother</a>, <a href="http://ateliertakagi.com/" target="blank">Atelier Takagi</a>, <a href="http://feel.agency/" target="blank">FEEL</a>, <a href="http://dusendusen.com/" target="blank">Dusen Dusen</a>, <a href="http://elanaschlenker.com/" target="blank">Studio Elana Schlenker</a>, <a href="http://hellomrmag.com/" target="blank">Hello Mr.</a></p>
+			<p>✈ Available internationally + looking for a new home</p>
+		</div>
+    <div class="post">
+	<p class="description" style="display: none;">MICHAELQ.INFO&#10230;SCRAPS</p>
+		
+	<div id="date" style="opacity: 1;">MICHAELQ.INFO&#10230;SCRAPS</div>
+	<div style="height:10px;"></div>
+	</div>
+    <script>
+$(window).load(function () {
+    $(window).on("scroll resize", function () {
+        var pos = $('#date').offset();
+        $('.post').each(function () {
+            if (pos.top >= $(this).offset().top && pos.top <= $(this).next().offset().top) {
+                var newDescr = $(this).find('.description').text();
+                var oldDescr = $( "#date" ).html();
+                $('#date').html(newDescr);
+                if(newDescr !== oldDescr) {
+                    $( "#date" ).css('opacity', 0.4).animate({ 'opacity': '1',}, 200);
+                return;
+                }
+            }
+        });
+    });
+    $(document).ready(function () {
+        $(window).trigger('scroll'); // init the value
+    });
+});
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+</body></html>
