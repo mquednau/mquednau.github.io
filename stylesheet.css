@@ -152,11 +152,7 @@ a:visited {
   top: 10%;
   border: 1pt solid black;
   overflow: scroll;
-  -webkit-transition: opacity 1s ease-in;
-  -moz-transition: opacity 1s ease-in;
-  -o-transition: opacity 1s ease-in;
-  -ms-transition: opacity 1s ease-in;
-  transition: opacity 1s ease-in;
+	box-shadow: 0px 0px 10px black;
 }
 
 .information {
