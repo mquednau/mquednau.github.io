@@ -7,6 +7,10 @@ body {
     font-family: "ex";
     src: url(ex.otf);
 }
+@font-face{
+    font-family: "ArNar";
+    src: url(ArNar.ttf);
+}
 
 @font-face{
   font-family: "fraktur";
@@ -89,7 +93,7 @@ p {
   margin:0;
 }
 h1 {
-  font-family: 'ex';
+  font-family: 'ArNar';
   font-size: 22pt;
   font-weight: 100;
   margin-top: 13px;
