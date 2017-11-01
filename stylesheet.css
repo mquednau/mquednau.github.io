@@ -32,9 +32,8 @@ p {
 .p2 {
   z-index: 1;
   font-family: 'vremena';
-  text-align: center;
+  text-align: left;
   font-size: 22pt;
-  letter-spacing: 2px;
   line-height: 24pt;
   width: 80%;
   left: 10%;
@@ -95,7 +94,7 @@ h1 {
   font-weight: 100;
   margin-top: 13px;
   z-index: 3;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   width: inherit;
   text-align: left;
   margin-left: 20px;
@@ -153,6 +152,11 @@ a:visited {
   top: 10%;
   border: 1pt solid black;
   overflow: scroll;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
 }
 
 .information {
@@ -165,7 +169,7 @@ a:visited {
   font-size: 26pt;
 }
 .information:hover {
-  text-shadow: 0px 0px 10px pink;
+  text-shadow: 0px 0px 10px black;
 }
 
 .information:focus {
@@ -187,7 +191,7 @@ a:visited {
   font-weight: 100;
   width: 80%;
   z-index: 3;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
 }
 
 #before {
