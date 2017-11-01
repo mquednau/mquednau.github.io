@@ -156,7 +156,7 @@ a:visited {
   top: 10%;
   border: 1pt solid black;
   overflow: scroll;
-	box-shadow: 5px 5px 10px black;
+/* 	box-shadow: 5px 5px 10px black; */
 }
 
 .information {
