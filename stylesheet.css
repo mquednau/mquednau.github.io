@@ -8,6 +8,10 @@ body {
     src: url(ex.otf);
 }
 @font-face{
+    font-family: "tintin";
+    src: url(tintin2.ttf);
+}
+@font-face{
     font-family: "ArNar";
     src: url(ArNar.ttf);
 }
@@ -181,7 +185,7 @@ a:visited {
 }
 
 #date {
-  font-family: 'ex';
+  font-family: 'tintin';
   letter-spacing: .75px;
 	position: fixed;
   hyphens: auto;
