@@ -152,12 +152,13 @@ a:visited {
 #myDIV {
   /*background: rgba(149, 3, 3, 0.12);*/
 /*   background: white; */
-  width: 46vw;
+  height: 50vh;
 color: red;
 	background:black;
-  height: 100%;
+  width: 100%;
   position: fixed;
   display: none;
+	
   z-index: 3;
 /*   border: 1pt solid black; */
   overflow: scroll;
