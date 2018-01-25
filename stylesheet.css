@@ -189,7 +189,7 @@ color: red;
 
 #date {
   font-family: 'ex';
-  letter-spacing: .75px;
+  letter-spacing: 2px;
 	position: fixed;
   hyphens: auto;
 	top: 16px;
@@ -198,7 +198,6 @@ color: red;
   font-weight: 100;
   width: 80%;
   z-index: 3;
-  letter-spacing: 2px;
 }
 
 #before {
