@@ -153,7 +153,8 @@ a:visited {
 /*   background: white; */
   width: 46vw;
 color: red;
-  height: 80%;
+	background:black;
+  height: 100%;
   right: 4%;
   position: fixed;
   display: none;
