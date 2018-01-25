@@ -150,15 +150,16 @@ a:visited {
 
 #myDIV {
   /*background: rgba(149, 3, 3, 0.12);*/
-  background: white;
+/*   background: white; */
   width: 46vw;
+color: red;
   height: 80%;
   right: 4%;
   position: fixed;
   display: none;
   z-index: 3;
   top: 10%;
-  border: 1pt solid black;
+/*   border: 1pt solid black; */
   overflow: scroll;
 /* 	box-shadow: 5px 5px 10px black; */
 }
