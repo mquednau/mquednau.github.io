@@ -139,13 +139,13 @@ img {
 }
 
 a:link {
-  color: black;
+  color: red;
   text-decoration: none;
   line-height: normal;
   border-bottom: 1pt solid;
 }
 a:visited {
-    color:black;
+    color:red;
 }
 
 #myDIV {
@@ -155,11 +155,9 @@ a:visited {
 color: red;
 	background:black;
   height: 100%;
-  right: 4%;
   position: fixed;
   display: none;
   z-index: 3;
-  top: 10%;
 /*   border: 1pt solid black; */
   overflow: scroll;
 /* 	box-shadow: 5px 5px 10px black; */
