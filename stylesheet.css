@@ -255,11 +255,18 @@ color: red;
   letter-spacing: .75px;
 	position: fixed;
   hyphens: auto;
-	bottom: 16px;
-	left: 2%;
   font-size: 24pt;
   font-weight: 100;
   width: 80%;
-  z-index: 3;
-  letter-spacing: 1.5px
+  z-index: 0;
+  letter-spacing: 2px
+	  transform: rotate(-45deg);
+  left: 50%;
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+	
 }
