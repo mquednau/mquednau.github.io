@@ -246,3 +246,17 @@ a:visited {
   position: relative;
   z-index: 1;
 }
+
+#MQ {
+  font-family: 'vremena';
+  letter-spacing: .75px;
+	position: fixed;
+  hyphens: auto;
+	bottom: 16px;
+	left: 2%;
+  font-size: 24pt;
+  font-weight: 100;
+  width: 80%;
+  z-index: 3;
+  letter-spacing: 1.5px
+}
