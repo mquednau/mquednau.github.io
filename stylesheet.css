@@ -131,6 +131,12 @@ img {
 #three {
   width: 40%;
 }
+#four {
+  position: relative;
+  display:block;
+  width: 100%;
+  margin: 0px;
+}
 
 #cv {
   position: relative;
