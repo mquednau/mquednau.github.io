@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="waypoints.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1>&copy;Michael Q<br>2019&rarr;<a href="https://www.instagram.com/4e.vr/">4EVR</a><br>Designer & Handyman in Berlin<br><a href="mailto:email@michaelq.eu">email@michaelq.eu</a></h1>
+  <!-- <h2>&#10014; Designer and Handyman living in Berlin<br>&#10014; Email me:<a href="mailto:lol@michaelq.eu"> email@michaelq.eu</a></h2> -->
+
+  <!-- Trigger the Modal -->
+  <img class="myImg" src="bomin.jpg" alt="Mesh Sunglasses, designed for SUPPORT" width="40%">
+  <img class="myImg" src="blouse1.jpg" alt="" width="40%">
+  <video id="three" autoplay="" loop=""><source src="dusen.mp4" type="video/mp4"></video>
+  <img class="myImg" src="miya-calib.jpg" alt="Designed for QUEDNA.US" width="80%">
+  <img class="myImg" src="hello-m.jpg" alt="Promotional material for Hello Mr. Live: NOLA" width="50%">
+  <img class="myImg" src="q3.png" alt="Leisure Suit, designed for QUEDNAUS, email to place an order" width="30%">
+  <video id="three" autoplay="" loop=""><source src="boys-on-type.mp4" type="video/mp4"></video>
+  <img class="myImg" src="s3.jpg" alt="Campaign for Infinity Cola" width="30%">
+  <img class="myImg" src="glyph.jpg" alt="Made in collaboration with Atelier Takagi" width="90%">
+  <img class="myImg" src="s6.jpg" alt="Vapor Chamber made for SUPPORT" width="40%">
+  <iframe src="https://www.youtube.com/embed/dRFIF6QFzqw?version=3&amp;autoplay=0&amp;controls=0&amp;&amp;showinfo=0&amp;loop=1&#8203;playlist=VIDEO_ID" frameborder="0" alt="Oversize Tee Dress in Blue Blinds, 100% Rayon, $88" width="60%"></iframe>
+  <img class="myImg" src="disco-fag2.jpg" alt="Discofag Shirt designed to acompany my research on discosexuality, text available upon request" width="40%">
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&#9587;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+</body>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+</html>
