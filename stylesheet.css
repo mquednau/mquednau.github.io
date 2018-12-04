@@ -62,7 +62,7 @@ a:active {
 
 /* The Modal (background) */
 .modal {
-  color: black;
+  color: #ffe6e6;
    display: none; /* Hidden by default */
    position: fixed; /* Stay in place */
    z-index: 2; /* Sit on top */
