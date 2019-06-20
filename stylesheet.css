@@ -6,7 +6,7 @@ body {
   src: url(Brown-Regular.otf);
 }
 h1 {
-  font-size: 5vh;
+  font-size: 6vh;
   color: black;
   font-family: 'Helvetica';
   letter-spacing: -2px;
@@ -16,7 +16,7 @@ h1 {
   left: 20px;
   margin: 0;
   z-index: 0;
-  line-height: 5vh;
+  line-height: 6vh;
 }
 
 h2 {
