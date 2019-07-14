@@ -47,6 +47,18 @@ h3 {
   line-height: 6vh;
 }
 
+p {
+  font-size: 6vh;
+  color: blue;
+  font-family: 'times';
+  letter-spacing: -1px;
+  font-weight: 100;
+  position: relative;
+  left: 20px;
+  margin: 0;
+  z-index: 0;
+  line-height: 6vh;
+}
 
 a:link {
   text-decoration: none;
