@@ -5,14 +5,18 @@ body {
   font-family: "brown";
   src: url(Brown-Regular.otf);
 }
+.header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
 h1 {
   font-size: 6vh;
   color: black;
   font-family: 'Helvetica';
   letter-spacing: -2px;
   font-weight: 100;
-  top: 20px;
-  left: 20px;
   margin: 0;
   z-index: 0;
   line-height: 6vh;
