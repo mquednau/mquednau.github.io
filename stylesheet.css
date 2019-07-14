@@ -51,11 +51,11 @@ h3 {
 }
 
 p {
-  font-size: 5.75vh;
+  font-size: 6vh;
   color: red;
-  font-family: 'times new roman';
+  font-family: 'helvetica';
   font-weight: 100;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
   left: 20px;
   margin: 0;
   z-index: 0;
