@@ -33,6 +33,21 @@ h2 {
   line-height: 4.5vh;
 }
 
+h3 {
+  font-size: 6vh;
+  color: black;
+  font-family: 'Helvetica';
+  letter-spacing: -2px;
+  font-weight: 100;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  z-index: 0;
+  line-height: 6vh;
+}
+
+
 a:link {
   text-decoration: none;
   color: black;
