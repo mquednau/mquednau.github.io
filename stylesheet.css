@@ -54,6 +54,7 @@ h2:hover{
 
 img {
     max-width: 35%;
+    max-height: 700px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
