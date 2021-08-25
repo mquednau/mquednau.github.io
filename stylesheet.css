@@ -170,11 +170,6 @@ a:active {
        width: 100%;
    }
 }
-img {
-  max-width: 90%;
-  margin: 40px;
-  font-family: sans-serif;
-}
 
 iframe {
   max-width: 90%;
