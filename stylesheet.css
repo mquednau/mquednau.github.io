@@ -176,6 +176,11 @@ iframe {
   margin: 40px;
   height: 400px;
 }
+img {
+   max-width: 90%;
+   margin: 40px;
+   font-family: sans-serif;
+ }
 
 #one {
   display:  block;
